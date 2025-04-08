@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(MazePathfinder main.cpp Cell.cpp)
 cmake_minimum_required(VERSION 3.24)
-project(SFML_Game)
+project(MazePathfinder)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/libs/sfml/lib/cmake/SFML)
