@@ -57,34 +57,6 @@ You can easily tweak:
 
 ---
 
-## 🧰 Build & Run
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/mykola-derevianko/maze-pathfinder.git
-cd maze-pathfinder
-```
-
-### 2. Build the project
-Make sure SFML is installed and linked properly.
-
-#### 🟡 Linux / macOS (g++)
-```bash
-g++ -std=c++17 -o MazePathfinder main.cpp -lsfml-graphics -lsfml-window -lsfml-system -pthread
-./maze
-```
-
-#### 🔵 Windows (MinGW)
-```bash
-g++ -std=c++17 main.cpp -o MazePathfinder.exe -lsfml-graphics -lsfml-window -lsfml-system -pthread
-MazePathfinder.exe
-```
-
-Or use your preferred build system (CMake, Makefile, etc.)
-
----
-
 ## 🤭 Future Improvements
 
 - ✅ Add DFS / A* support
